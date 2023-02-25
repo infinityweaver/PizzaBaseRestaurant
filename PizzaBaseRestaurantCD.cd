@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PizzaBaseRestaurant.Topping">
+    <Position X="13" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAEgAAAAAQAAAAAAIAAAAAAAAAAABA=</HashCode>
+      <FileName>Topping.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PizzaBaseRestaurant.Item">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PizzaBaseRestaurant.Pizza">
+    <Position X="7.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAQAAgAAAIAQAAAAAAAAAAAAAAQQAAAAAAEA=</HashCode>
+      <FileName>Pizza.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Size" />
+      <Property Name="Type" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="toppings" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="PizzaBaseRestaurant.Beverage">
+    <Position X="5.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAgAAEAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Beverage.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Flavor" />
+      <Property Name="Size" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PizzaBaseRestaurant.PrefabPizza">
+    <Position X="11.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAEAAAAAAQAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>PrefabPizza.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Enum Name="PizzaBaseRestaurant.CrustType">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>CrustType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PizzaBaseRestaurant.PizzaSize">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAABAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>PizzaSize.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PizzaBaseRestaurant.BeverageSize">
+    <Position X="3" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BeverageSize.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PizzaBaseRestaurant.BeverageFlavor">
+    <Position X="2.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BeverageFlavor.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
